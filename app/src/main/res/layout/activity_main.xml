@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/programa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Programa"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Correo Electrónico"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegistrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        app:layout_constraintBottom_toTopOf="@+id/apellidop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/apellidop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Apellido Paterno"
+        app:layout_constraintBottom_toTopOf="@+id/apellidom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/apellidom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Apellido Materno"
+        app:layout_constraintBottom_toTopOf="@+id/programa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="147dp"
+        android:text="Registrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+</androidx.constraintlayout.widget.ConstraintLayout>
